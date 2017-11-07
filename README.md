@@ -14,9 +14,7 @@ Summary: A cross-platform clipboard module for Python. (only handles plain text 
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/pyperclip-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/pyperclip-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/pyperclip-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/pyperclip-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/pyperclip-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/pyperclip-feedstock/branch/master)
+All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/pyperclip-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/pyperclip-feedstock)
 
 Current release info
 ====================
