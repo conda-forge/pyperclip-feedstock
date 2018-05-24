@@ -14,12 +14,15 @@ Summary: A cross-platform clipboard module for Python. (only handles plain text 
 Current build status
 ====================
 
-All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/pyperclip-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/pyperclip-feedstock)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/pyperclip-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/pyperclip-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pyperclip/badges/version.svg)](https://anaconda.org/conda-forge/pyperclip)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pyperclip/badges/downloads.svg)](https://anaconda.org/conda-forge/pyperclip)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-pyperclip-green.svg)](https://anaconda.org/conda-forge/pyperclip) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/pyperclip.svg)](https://anaconda.org/conda-forge/pyperclip) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/pyperclip.svg)](https://anaconda.org/conda-forge/pyperclip) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/pyperclip.svg)](https://anaconda.org/conda-forge/pyperclip) |
 
 Installing pyperclip
 ====================
