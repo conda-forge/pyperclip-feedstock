@@ -1,8 +1,8 @@
 {% set name = "pyperclip" %}
-{% set version = "1.6.0" %}
+{% set version = "1.6.1" %}
 {% set bundle = "tar.gz" %}
 {% set hash_type = "sha256" %}
-{% set hash = "ce829433a9af640e08ee89b20f7c62132714bcc5d77df114044d0fccb8c3b3b8" %}
+{% set hash = "03ce3e66e2a26a085f0e043236dedd78aaabf53a64dab9a216671f74ee272845" %}
 {% set build = 0 %}
 
 package:
@@ -11,18 +11,18 @@ package:
 
 source:
   fn: {{ name }}-{{ version }}.{{ bundle }}
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.{{ bundle }}
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.{{ bundle }}
   {{ hash_type }}: {{ hash }}
 
 build:
   noarch: python
   number: {{ build }}
-  script: python setup.py install --single-version-externally-managed --record=record.txt
+  script: python -m pip install --no-deps --ignore-installed .
 
 requirements:
   build:
     - python
-    - setuptools
+    - pip
 
   run:
     - python
