@@ -5,11 +5,13 @@ Home: https://github.com/asweigart/pyperclip
 
 Package license: BSD 3-Clause
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pyperclip-feedstock/blob/master/LICENSE.txt)
 
 Summary: A cross-platform clipboard module for Python. (only handles plain text for now)
 
+Development: https://github.com/asweigart/pyperclip
 
+Documentation: https://pyperclip.readthedocs.io
 
 Current build status
 ====================
