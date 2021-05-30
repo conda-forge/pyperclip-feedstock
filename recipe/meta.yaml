@@ -32,7 +32,7 @@ test:
 about:
   home: https://github.com/asweigart/pyperclip
   license_file: {{ RECIPE_DIR }}/LICENSE.txt
-  license: BSD 3-Clause
+  license: BSD-3-Clause
   license_family: BSD
   summary: A cross-platform clipboard module for Python. (only handles plain text for now)
   dev_url: https://github.com/asweigart/pyperclip
