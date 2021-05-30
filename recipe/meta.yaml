@@ -14,7 +14,7 @@ source:
 
 build:
   noarch: python
-  number: 1
+  number: 2
   script: {{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv
 
 requirements:
@@ -32,7 +32,7 @@ test:
 about:
   home: https://github.com/asweigart/pyperclip
   license_file: {{ RECIPE_DIR }}/LICENSE.txt
-  license: BSD 3-Clause
+  license: BSD-3-Clause
   license_family: BSD
   summary: A cross-platform clipboard module for Python. (only handles plain text for now)
   dev_url: https://github.com/asweigart/pyperclip
@@ -40,5 +40,4 @@ about:
 
 extra:
   recipe-maintainers:
-    - pmlandwehr
     - jan-janssen
