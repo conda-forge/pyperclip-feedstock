@@ -1,16 +1,14 @@
 {% set name = "pyperclip" %}
 {% set version = "1.8.2" %}
-{% set bundle = "tar.gz" %}
-{% set hash = "105254a8b04934f0bc84e9c24eb360a591aaf6535c9def5f29d92af107a9bf57" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  fn: {{ name }}-{{ version }}.{{ bundle }}
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.{{ bundle }}
-  sha256: {{ hash }}
+  fn: {{ name }}-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: 105254a8b04934f0bc84e9c24eb360a591aaf6535c9def5f29d92af107a9bf57
 
 build:
   noarch: python
@@ -26,9 +24,10 @@ requirements:
     - python >=3.6
     - __linux  # [linux]
     - __osx  # [osx]
-    - __win   # [win]
+    - __win  # [win]
     - xclip  # [linux]
     - xsel  # [linux]
+    - pyobjc-framework-cocoa  # [osx]
 
 test:
   imports:
