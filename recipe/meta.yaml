@@ -19,7 +19,6 @@ requirements:
   host:
     - python >=3.6
     - pip
-
   run:
     - python >=3.6
     - __linux  # [linux]
