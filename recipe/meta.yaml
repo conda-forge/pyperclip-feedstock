@@ -1,5 +1,5 @@
 {% set name = "pyperclip" %}
-{% set version = "1.9.0" %}
+{% set version = "1.10.0" %}
 
 package:
   name: {{ name|lower }}
@@ -8,11 +8,11 @@ package:
 source:
   fn: {{ name }}-{{ version }}.tar.gz
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: b7de0142ddc81bfc5c7507eea19da920b92252b548b96186caf94a5e2527d310
+  sha256: 180c8346b1186921c75dfd14d9048a6b5d46bfc499778811952c6dd6eb1ca6be
 
 build:
   noarch: python
-  number: 3
+  number: 0
   script: {{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv
 
 requirements:
